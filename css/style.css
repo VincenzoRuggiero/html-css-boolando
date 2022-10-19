@@ -3,10 +3,12 @@
   padding: 0;
 }
 
-/* .container {
+.container {
   width: 80%;
-  margin: auto;
-} */
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* HEADER */
 header {
@@ -36,4 +38,87 @@ header .header-wrapper {
 .main-logo {
   width: 40%;
   height: auto;
+}
+
+/* PRODUCTS */
+article {
+  flex-basis: calc(100% / 3);
+  margin: 0 10px;
+}
+
+article .image-box {
+  width: inherit;
+  height: 500px;
+  border: 1px solid black;
+  background: url(../img/1.webp) no-repeat no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.brand-name,
+.discounted-price,
+.old-price {
+  font-size: 0.8rem;
+}
+
+.brand-name,
+.old-price {
+  color: #878787;
+}
+
+article {
+}
+
+article .product-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+article .discounted-price {
+  color: red;
+}
+
+article .old-price {
+  text-decoration: line-through;
+}
+
+article .discounted-badge {
+  display: block;
+  background-color: red;
+  padding: 3px 5px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+}
+
+article .sustainability-badge {
+  background-color: #007e00;
+  padding: 3px 5px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 19%;
+}
+article .favourite-badge {
+  background-color: #fff;
+  padding: 7px 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  right: 0;
+}
+
+article .favourite-badge:hover {
+  background-color: #fff;
+  color: red;
+  padding: 7px 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  right: 0;
 }
