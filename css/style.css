@@ -2,3 +2,38 @@
   margin: 0;
   padding: 0;
 }
+
+/* .container {
+  width: 80%;
+  margin: auto;
+} */
+
+/* HEADER */
+header {
+  background-color: #ff6801;
+}
+
+header .header-wrapper {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.header-wrapper nav ul {
+  list-style-type: none;
+}
+
+.header-wrapper nav li {
+  color: #fff;
+  display: inline-block;
+  font-size: smaller;
+  margin: 0 5px;
+}
+
+.main-logo {
+  width: 40%;
+  height: auto;
+}
