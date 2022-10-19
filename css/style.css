@@ -38,6 +38,15 @@ header .header-wrapper {
 .main-logo {
   width: 40%;
   height: auto;
+  text-align: center;
+}
+
+.icons {
+  color: #fff;
+}
+
+.icons .fa-solid {
+  margin: 0 5px;
 }
 
 /* PRODUCTS */
