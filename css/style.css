@@ -63,10 +63,56 @@ article {
 article .image-box {
   width: inherit;
   height: 500px;
-  background: url(../img/1.webp) no-repeat no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+.product-1 {
+  background: url(../img/1.webp) no-repeat no-repeat;
+}
+.product-1:hover {
+  background: url(../img/1b.webp) no-repeat no-repeat;
+  background-size: cover;
+}
+
+.product-2 {
+  background: url(../img/2.webp) no-repeat no-repeat;
+}
+.product-2:hover {
+  background: url(../img/2b.webp) no-repeat no-repeat;
+  background-size: cover;
+}
+
+.product-3 {
+  background: url(../img/3.webp) no-repeat no-repeat;
+}
+.product-3:hover {
+  background: url(../img/3b.webp) no-repeat no-repeat;
+  background-size: cover;
+}
+
+.product-4 {
+  background: url(../img/4.webp) no-repeat no-repeat;
+}
+.product-4:hover {
+  background: url(../img/4b.webp) no-repeat no-repeat;
+  background-size: cover;
+}
+.product-5 {
+  background: url(../img/5.webp) no-repeat no-repeat;
+}
+.product-5:hover {
+  background: url(../img/5b.webp) no-repeat no-repeat;
+  background-size: cover;
+}
+
+.product-6 {
+  background: url(../img/6.webp) no-repeat no-repeat;
+}
+.product-6:hover {
+  background: url(../img/6b.webp) no-repeat no-repeat;
+  background-size: cover;
 }
 
 .brand-name,
